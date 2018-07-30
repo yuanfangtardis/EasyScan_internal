@@ -1,2 +1,2 @@
 # EasyScan_internal
-EasyScan_HEP 内部交流文档
+EasyScan_HEP V2 内部交流文档
