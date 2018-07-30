@@ -1,0 +1,8 @@
+.DEFAULT_GOAL := pdf
+
+pdf:
+	-pdflatex paper.tex
+	-bibtex paper.aux
+	-pdflatex paper.tex
+	-pdflatex paper.tex
+	-xdg-open paper.pdf
